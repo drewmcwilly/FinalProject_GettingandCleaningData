@@ -36,6 +36,6 @@ library(dplyr)
          colnames(tidy_data)<-gsub("\\...","",colnames(tidy_data))
          colnames(tidy_data)<-gsub("\\..","",colnames(tidy_data))
 #export data to csv file "TidyData.csv"         
-         write.csv(tidy_data, file = "TidyData.csv",row.names=FALSE)
+         write.csv(tidy_data, file = "TidyData.txt",row.names=FALSE)
 
          
